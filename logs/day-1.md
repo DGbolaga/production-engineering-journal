@@ -1,4 +1,4 @@
-# What I did today (2026-06-08)
+# What I did
 - Read Chapter 1 of "How Linux Works" by Brian Ward.
 
 
@@ -14,4 +14,3 @@
 # Tomorrow
 1. I'll start my CPU Monitor project.
 2. Continue reading How Linux Works.
-

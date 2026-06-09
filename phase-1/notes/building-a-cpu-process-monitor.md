@@ -4,12 +4,12 @@ Similar to the Top Cli tool on Linux.
 
 Here's how the Original cli looks :
 
-![Screenshot from 2026-06-09 19-19-42.png](../../assets/Screenshot from 2026-06-09 19-19-42.png)
+![Screenshot from 2026-06-09 19-19-42.png](../../assets/Screenshot%20from%202026-06-09%2019-19-42.png)
 
 there's a zombie task there 😅 - what does that even mean?
 
 interesting to find out what's happening at each cores in my system's CPU.
-![Screenshot from 2026-06-09 19-26-09.png](../../assets/Screenshot from 2026-06-09 19-26-09.png)
+![Screenshot from 2026-06-09 19-26-09.png](../../assets/Screenshot%20from%202026-06-09%2019-26-09.png)
 
 Now, Top only works due to the /proc directory on every Linux system. It's regularly reading information from there to be able to give an aggregated summary.
 
@@ -24,7 +24,7 @@ Now, let's dig deep.
 I can see lots of numbers in the proc (virtual filesystem).
 
 I believe they are called PID (Process Identifier) directories with some systems files.
-![Screenshot from 2026-06-09 19-58-47.png](../../assets/Screenshot from 2026-06-09 19-58-47.png)
+![Screenshot from 2026-06-09 19-58-47.png](../../assets/Screenshot%20from%202026-06-09%2019-58-47.png)
 
 
 If the /proc is a virtual filesystem, what then are the process identifiers representing? 

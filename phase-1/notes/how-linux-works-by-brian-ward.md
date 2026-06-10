@@ -14,7 +14,7 @@ In Linux, the 3 main levels.
 2. The **Kernel**: which is above the base, and is the core of the OS. it's more like the software (which stays in the memory) that tells the CPU where to look for it's next task. The Kernel acts as a mediator between the hardware and any program, while also managing the main memory. In simple terms, the kernel understands what the  need of the hardware is (at anytime), manages it and communicates with other programs that might be running.
 3. **Processes**: They are referred to as the programs that the kernel manages. This is the upper layer also known as the user space.
 
-![Screenshot from 2026-06-08 19-23-31.png](../../assets/Screenshot%20from%202026-06-08%2019-23-31.png)
+![Screenshot from 2026-06-08 19-23-31.png](../../assets/Screenshot from 2026-06-08 19-23-31.png)
 
 So what's the difference between the Kernel and the User process?
 The answer, very succinctly said is that the kernel runs in **Kernel Mode** (unrestricted access to the processor and main memory) but the user process runs in **user mode** 

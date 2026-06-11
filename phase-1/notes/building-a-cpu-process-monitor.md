@@ -37,3 +37,27 @@ This means, that once the process is completed they would be cleaned up and not 
 This is where I'll stop for today (2026-06-09)
 
 ---
+
+
+
+Let's pick this up, today (2026-06-11)
+
+Today, I'll go all in on the process monitor in Rust.
+
+It's going to be written in Rust and will be benchmarked against top and htop. I'll write the tradeoffs as well.
+
+The scope of the project:
+- The tool should show a report of per process CPU utilization by reading the /proc files
+	- It should also report aggregate and per-core  CPU stats by reading stats from the /proc virtual filesystem.
+	- At a specified interval, the tool should sample the reported files, compute the deltas between samples to derive percentages, and print the results as a sorted process table to the command line (sorted by CPU/percentages/descending)
+	- On the command line, it should accept flags such as the number of samples and how many top processes to show.
+	- Ctrl + c should exit the program.
+
+- This project would be incomplete without benchmarking.
+	- I'll measure the refresh latency and cpu overhead as compared to top and htop.
+	- Refresh latency is given by the time from start of a sample to the rendered output.
+	- CPU overhead is considered to be how much the cpu monitor itself consumes when running. All these should be done under matched intervals.
+	- I'll give a writeup on these containing the hardware, methodology, sample sizes, what's the variance and the tradeoffs.
+	- My results should be reproducible across different runs. 
+
+- This project is strictly monitoring the cpu processes. For v1, it's not dealing with memory, disk or network metrics. I won't also be doing logging, sending kill signals or filtering search that top does.

@@ -70,4 +70,6 @@ Today day 5 (12-06-2026), I learnt how to use htop. It's better, asethetically w
 ![Screenshot from 2026-06-12 23-04-26.png](../../assets/Screenshot from 2026-06-12 23-04-26.png)
 
 
--- The man
+- I had to understand how to access the information in each process identifier (PID) directory using the Linux Man pages. With that, I will be able to give an aggregrated report for each cpu core process running + some other necessary infos.
+
+![Screenshot from 2026-06-12 23-14-35.png](../../assets/Screenshot from 2026-06-12 23-14-35.png)

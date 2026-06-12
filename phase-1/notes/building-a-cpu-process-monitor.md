@@ -3,7 +3,7 @@ Today, I'm going to build a cli tool that tracks and displays real time resource
 Similar to the Top Cli tool on Linux. 
 
 Here's how the Original cli looks :
-
+- I'll work on the cpu process monitor
 ![Screenshot from 2026-06-09 19-19-42.png](../../assets/Screenshot from 2026-06-09 19-19-42.png)
 
 there's a zombie task there 😅 - what does that even mean?
@@ -60,4 +60,14 @@ The scope of the project:
 	- I'll give a writeup on these containing the hardware, methodology, sample sizes, what's the variance and the tradeoffs.
 	- My results should be reproducible across different runs. 
 
-- This project is strictly monitoring the cpu processes. For v1, it's not dealing with memory, disk or network metrics. I won't also be doing logging, sending kill signals or filtering search that top does.
+- This project is strictly monitoring the cpu processes. For v1, it's not dealing with memory, disk or network metrics. I won't also be doing logging, sending kill signals or filtering search that t- I'll work on the cpu process monitorop does.
+
+---
+
+Today day 5 (12-06-2026), I learnt how to use htop. It's better, asethetically wise compared to top and more intitutive to follow.
+
+
+![Screenshot from 2026-06-12 23-04-26.png](../../assets/Screenshot from 2026-06-12 23-04-26.png)
+
+
+-- The man

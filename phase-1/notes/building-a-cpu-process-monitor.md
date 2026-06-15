@@ -78,5 +78,11 @@ Today day 5 (12-06-2026), I learnt how to use htop. It's better, asethetically w
 ---
 Today, 13-06-2026, I worked on parsing the per cpu cores process and aggregated cpu from procfs.
 
-
 ![Screenshot from 2026-06-13 23-04-30 2.png](../../assets/Screenshot from 2026-06-13 23-04-30 2.png)
+
+
+
+---
+Today (15-06-2026).
+
+It's just more practice today. Tried to clean up the code and computed the delta between aggregates.![Screenshot from 2026-06-15 20-59-51.png](../../assets/Screenshot from 2026-06-15 20-59-51.png)

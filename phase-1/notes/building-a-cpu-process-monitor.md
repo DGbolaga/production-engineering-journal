@@ -54,7 +54,7 @@ The scope of the project:
 	- Ctrl + c should exit the program.
 
 - This project would be incomplete without benchmarking.
-	- I'll measure the refresh latency and cpu overhead as compared to top and htop.
+	- I'll meaEmpty :) just good old googling.sure the refresh latency and cpu overhead as compared to top and htop.
 	- Refresh latency is given by the time from start of a sample to the rendered output.
 	- CPU overhead is considered to be how much the cpu monitor itself consumes when running. All these should be done under matched intervals.
 	- I'll give a writeup on these containing the hardware, methodology, sample sizes, what's the variance and the tradeoffs.
@@ -86,3 +86,10 @@ Today, 13-06-2026, I worked on parsing the per cpu cores process and aggregated 
 Today (15-06-2026).
 
 It's just more practice today. Tried to clean up the code and computed the delta between aggregates.![Screenshot from 2026-06-15 20-59-51.png](../../assets/Screenshot from 2026-06-15 20-59-51.png)
+
+
+
+---
+Stage 3 completed on June 23 - 2026.
+
+![Screenshot from 2026-06-24 07-19-37.png](../../assets/Screenshot from 2026-06-24 07-19-37.png)
